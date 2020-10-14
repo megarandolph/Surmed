@@ -141,7 +141,9 @@
     <Content Include="img\call-to-action-bg.jpg" />
     <Content Include="img\favicon.png" />
     <Content Include="img\hero-bg.jpg" />
-    <Content Include="img\logo.png" />
+    <Content Include="img\logo1.PNG">
+      <BrowseToURL>imgl</BrowseToURL>
+    </Content>
     <Content Include="img\portfolio\app1.jpg" />
     <Content Include="img\portfolio\app2.jpg" />
     <Content Include="img\portfolio\app3.jpg" />

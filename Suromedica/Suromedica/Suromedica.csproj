@@ -131,6 +131,9 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
+    <Content Include="Content\colors1.css" />
+    <Content Include="Content\custom.css" />
+    <Content Include="Content\hizoom.css" />
     <Content Include="Content\style.css" />
     <Content Include="favicon.ico" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
@@ -156,6 +159,7 @@
     <Content Include="img\portfolio\web1.jpg" />
     <Content Include="img\portfolio\web2.jpg" />
     <Content Include="img\portfolio\web3.jpg" />
+    <Content Include="img\products\1.jpg" />
     <Content Include="img\team-1.jpg" />
     <Content Include="img\team-2.jpg" />
     <Content Include="img\team-3.jpg" />
@@ -188,6 +192,8 @@
     <Content Include="lib\font-awesome\fonts\fontawesome-webfont.woff2" />
     <Content Include="lib\font-awesome\fonts\FontAwesome.otf" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
+    <Content Include="Scripts\custom.js" />
+    <Content Include="Scripts\hizoom.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
     <Content Include="Scripts\jquery-3.4.1.min.js" />
     <Content Include="Scripts\jquery-3.4.1.slim.js" />
@@ -210,10 +216,9 @@
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Views\Shared\Error.cshtml" />
     <Content Include="Views\Shared\_Layout.cshtml" />
-    <Content Include="Views\Home\About.cshtml" />
-    <Content Include="Views\Home\Contact.cshtml" />
-    <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Home\Home.cshtml" />
+    <Content Include="Views\Home\productosA.cshtml" />
+    <Content Include="Views\Home\DetalleA1.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

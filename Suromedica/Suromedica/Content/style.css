@@ -1,9 +1,3 @@
-/*
-  Theme Name: Regna
-  Theme URL: https://bootstrapmade.com/regna-bootstrap-onepage-template/
-  Author: BootstrapMade.com
-  License: https://bootstrapmade.com/license/
-*/
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -492,6 +486,258 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding-bottom: 40px;
   color: #999;
 }
+.margin_bottom_30_all {
+    margin-bottom: 30px;
+}
+.product_list {
+    min-height: 400px;
+    transition: ease all 0.5s;
+}
+
+.cleaning .product_list {
+    min-height: 340px;
+    transition: ease all 0.5s;
+}
+
+.product_list:hover,
+.product_list:focus {
+    box-shadow: 0 0 25px -17px #000;
+    border-bottom: solid #17a5e9 5px;
+}
+
+.product_img {
+    overflow: hidden;
+    background: #f3f3f3;
+}
+
+    .product_img img {
+        padding: 22px;
+    }
+
+.cleaning .product_img img {
+    padding: 0;
+}
+
+.product_detail_btm h4 {
+    margin: 20px 0 10px 0;
+    text-align: center;
+}
+
+.product_list .starratin {
+    height: 0;
+    overflow: hidden;
+    transition: ease all 0.5s;
+}
+
+.product_list:hover .starratin,
+.product_list:focus .starratin {
+    height: 15px;
+    margin-bottom: 6px;
+}
+
+.product_list:hover div.product_img img,
+.product_list:focus div.product_img img {
+    transform: scale(1.2);
+    transition: ease all 0.5s;
+}
+
+.starratin {
+    color: #ffcc00;
+}
+
+    .starratin .fa {
+        margin: 0 0.5px;
+    }
+
+.product_price p {
+    margin: 0;
+    text-align: center;
+}
+
+.old_price {
+    font-size: 14px;
+    color: #737373;
+    text-decoration: line-through;
+}
+
+.new_price {
+    font-size: 18px;
+    font-weight: 600;
+    color: #000;
+}
+
+.recent_item {
+    color: #000;
+    font-weight: 600;
+    margin: 0;
+}
+
+.price_recent_item {
+    margin: 0;
+    color: #000;
+}
+.img-responsive {
+    max-width: 100%;
+}
+.center {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.product_detail_feature_img {
+    box-shadow: 0px 0 10px -7px #000;
+}
+.product_detail_side.detail_style1 {
+    margin-top: 35px;
+}
+.product-heading {
+    text-align: left;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+    .product-heading h2 {
+        font-size: 25px;
+        color: #181818;
+        padding-bottom: 20px;
+        margin: 0;
+        font-weight: 600;
+        text-transform: none;
+    }
+
+.product-detail-side {
+    border-bottom: 1px solid #f0f0f0;
+    text-align: left;
+    padding: 15px 0;
+}
+
+    .product-detail-side span {
+        font-size: 24px;
+        font-weight: 300;
+        margin-right: 15px;
+    }
+
+        .product-detail-side span.new-price {
+            color: #222;
+            font-weight: 400;
+        }
+
+        .product-detail-side span.rating {
+            margin-right: 5px;
+        }
+
+.rating i {
+    color: #eabe12;
+    font-size: 18px;
+    margin: 0 -2px;
+}
+
+.detail-contant {
+    text-align: left;
+    padding: 25px 0;
+    float: left;
+    width: 100%;
+}
+.full {
+    width: 100%;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+.tab_bar_section {
+    float: left;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.tab_bar_section .nav.nav-tabs {
+        float: left;
+        width: 100%;
+        display: block;
+        justify-content: center;
+        border-bottom: solid #ddd 1px;
+    }
+
+ .tab_bar_section .nav-tabs .nav-item {
+        margin-bottom: 0;
+        float: left;
+    }
+
+ .tab_bar_section ul.nav.nav-tabs li a {
+        font-family: 'Poppins', sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        padding: 0 30px;
+        height: 50px;
+        border: none !important;
+        line-height: 52px;
+        background: #f3f3f3;
+        border-radius: 0;
+    }
+
+ .tab_bar_section .tab-content {
+        float: left;
+        width: 100%;
+        padding: 35px 0;
+    }
+
+ .tab_bar_section .tab-content h3 {
+            font-weight: 500;
+            text-transform: none;
+        }
+.product_detail .tab_bar_section ul.nav.nav-tabs li a {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    padding: 0 25px;
+    height: 50px;
+    border: none !important;
+    line-height: 52px;
+    background: #f3f3f3;
+    border-radius: 0;
+}
+
+    .product_detail .tab_bar_section ul.nav.nav-tabs li a.active {
+        background: #039ee3;
+        color: #fff;
+    }
+
+.product_detail .tab_bar_section .nav-tabs .nav-item {
+    margin-bottom: 0;
+    float: left;
+}
+
+.product_detail .tab_bar_section {
+    float: left;
+    width: 100%;
+    margin-top: 50px;
+}
+
+    .product_detail .tab_bar_section .tab-content {
+        float: left;
+        width: 100%;
+        padding: 35px 0;
+    }
+
+.product_review h5 {
+    text-transform: none;
+    font-weight: 700;
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.product_review p {
+    margin-bottom: 0;
+}
+
+.product_review p.msg {
+    margin-top: 10px;
+}
+.padding_layout_1 {
+    padding-top: 120px;
+    padding-bottom: 115px;
+}
+
+
 
 /* About Us Section
 --------------------------------*/

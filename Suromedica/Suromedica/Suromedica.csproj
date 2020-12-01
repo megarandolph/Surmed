@@ -139,31 +139,12 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
-    <Content Include="img\about-img.jpg" />
     <Content Include="img\apple-touch-icon.png" />
-    <Content Include="img\call-to-action-bg.jpg" />
     <Content Include="img\favicon.png" />
-    <Content Include="img\logo1.PNG">
-      <BrowseToURL>imgl</BrowseToURL>
-    </Content>
+    <Content Include="img\logo1.png" />
     <Content Include="img\logosurmed.jpg" />
-    <Content Include="img\portfolio\app1.jpg" />
-    <Content Include="img\portfolio\app2.jpg" />
-    <Content Include="img\portfolio\app3.jpg" />
-    <Content Include="img\portfolio\card1.jpg" />
-    <Content Include="img\portfolio\card2.jpg" />
-    <Content Include="img\portfolio\card3.jpg" />
-    <Content Include="img\portfolio\logo1.jpg" />
-    <Content Include="img\portfolio\logo2.jpg" />
-    <Content Include="img\portfolio\logo3.jpg" />
-    <Content Include="img\portfolio\web1.jpg" />
-    <Content Include="img\portfolio\web2.jpg" />
-    <Content Include="img\portfolio\web3.jpg" />
     <Content Include="img\products\1.jpg" />
-    <Content Include="img\team-1.jpg" />
-    <Content Include="img\team-2.jpg" />
-    <Content Include="img\team-3.jpg" />
-    <Content Include="img\team-4.jpg" />
+    <Content Include="img\SURO.jpg" />
     <Content Include="lib\animate\animate.css" />
     <Content Include="lib\animate\animate.min.css" />
     <Content Include="lib\bootstrap\css\bootstrap.css" />

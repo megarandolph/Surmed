@@ -115,12 +115,12 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 26px;
   }
   #header #logo img {
-    max-height: 40px;
+    max-height: 50px;
   }
 }
 
 #header.header-fixed {
-  background: rgba(52, 59, 64, 0.9);
+  background: rgba(121, 152, 152, 1);
   padding: 20px 0;
   height: 72px;
   transition: all 0.5s;
@@ -144,13 +144,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero:before {
-  content: "";
-  background: rgba(0, 0, 0, 0.6);
-  position: absolute;
-  bottom: 0;
-  top: 0;
-  left: 0;
-  right: 0;
+    content: "";
+    background: rgba(121, 152, 152, 0.3);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 
 #hero .hero-container {

@@ -40,7 +40,7 @@
     <!--==========================
     Header
     ============================-->
-    <header id="header">
+    <header id="header" class="header-fixed">
         <div class="container">
 
 
@@ -59,13 +59,7 @@
             </nav><!-- #nav-menu-container -->
         </div>
     </header><!-- #header -->
-    <section id="hero">
-        <div class="hero-container">
-            <h1>Bienvenidos a Surmed</h1>
-
-            <a href="#prod" class="btn-get-started">Iniciar</a>
-        </div>
-    </section>
+   
     <!-- #hero -->
     <br />
     <br />
@@ -103,12 +97,12 @@
                                     <div class="full">
                                         <div class="tab_bar_section">
                                             <ul class="nav nav-tabs" id="myTab" role="tablist">
-                                                <li class="nav-item"> <a class="nav-link active" data-toggle="tab" href="#des" role="tab">Description</a> </li>
+                                                <li class="nav-item"> <a class="nav-link active" data-toggle="tab" href="#descripcion" role="tab">Description</a> </li>
                                                 <li class="nav-item"> <a class="nav-link" data-toggle="tab" href="#reviews" role="tab">Reviews</a> </li>
                                             </ul>
                                             <!-- Tab panes -->
                                             <div class="tab-content">
-                                                <div id="des" class="tab-pane active">
+                                                <div id="descripcion" class="tab-pane active">
                                                     <div class="product_desc">
                                                         <p>
                                                             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas ac elementum elit. Morbi eu arcu ipsum. Aliquam lobortis accumsan quam ac convallis.
@@ -123,7 +117,7 @@
                                                     </div>
                                                 </div>
 
-                                                <div id="reviews" class="tab-pane fade">
+                                                <div id="reviews" class="tab-pane">
                                                     <div class="product_review">
                                                         <h3>Reviews</h3>
 
@@ -181,7 +175,7 @@
     @*<script src="contactform/contactform.js"></script>*@
 
     <!-- Template Main Javascript File -->
-    <script src="~/Scripts/main.js"></script>
+    <script src="~/Scripts/main1.js"></script>
     
     <script src="~/Scripts/hizoom.js"></script>
     <script>
@@ -195,11 +189,11 @@
         });
     </script>
     <script>
-
-    $('#myTab a').on('click', function (e) {
-    e.preventDefault()
-    $(this).tab('show')
-    })
+        $('#myTab a').on('click', function (e) {
+            e.preventDefault()
+            $(this).tab('show')
+        })
+        
     </script>
 
 </body>

@@ -221,6 +221,20 @@
     <Content Include="Views\Home\DetalleA1.cshtml" />
     <Content Include="Views\Home\productosB.cshtml" />
     <Content Include="Views\Home\productosC.cshtml" />
+    <Content Include="Views\Home\DetalleA2.cshtml" />
+    <Content Include="Views\Home\DetalleA3.cshtml" />
+    <Content Include="Views\Home\DetalleA4.cshtml" />
+    <Content Include="Views\Home\DetalleA5.cshtml" />
+    <Content Include="Views\Home\DetalleA6.cshtml" />
+    <Content Include="Views\Home\DetalleB1.cshtml" />
+    <Content Include="Views\Home\DetalleB2.cshtml" />
+    <Content Include="Views\Home\DetalleB3.cshtml" />
+    <Content Include="Views\Home\DetalleC1.cshtml" />
+    <Content Include="Views\Home\DetalleC2.cshtml" />
+    <Content Include="Views\Home\DetalleC3.cshtml" />
+    <Content Include="Views\Home\DetalleC4.cshtml" />
+    <Content Include="Views\Home\DetalleC5.cshtml" />
+    <Content Include="Views\Home\DetalleC6.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

@@ -15,6 +15,7 @@
     <!-- Favicons -->
     <link href="~/img/favicon.png" rel="icon">
     <link href="~/img/apple-touch-icon.png" rel="apple-touch-icon">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Poppins:300,400,500,700" rel="stylesheet">
@@ -53,13 +54,12 @@
             <nav id="nav-menu-container">
                 <ul class="nav-menu">
                     <li class="menu-active"><a href="~/Home/Home">Home</a></li>
-                    <li><a href="~/Home/productosA">Producto</a></li>
+                    <li><a href="~/Home/productosB">Producto</a></li>
                     <li><a href="#prod">Detalles</a></li>
                 </ul>
             </nav><!-- #nav-menu-container -->
         </div>
     </header><!-- #header -->
-   
     <!-- #hero -->
     <br />
     <br />
@@ -72,18 +72,25 @@
                         <div class="col-md-12">
                             <div class="row">
                                 <div class="col-xl-6 col-lg-12 col-md-12">
-                                    <div class="product_detail_feature_img hizoom hi2">
-                                        <div class='hizoom hi2'> <img src="~/img/products/CUBIERTA DE CAMA.jpg" alt="#" /> </div>
+    
+                                    <img class="mySlides" src="~/img/products/COVERALL.jpg" alt="#" />
+                                    <img class="mySlides" style="width:100%; height:90%;" src="~/img/products/traje azules.png" alt="#" />
+
+                                    <div class="w3-center">
+                                        <div class="w3-section">
+                                            <button class="w3-button w3-light-grey" onclick="plusDivs(-1)">❮ Anterior</button>
+                                            <button class="w3-button w3-light-grey" onclick="plusDivs(1)">Siguiente ❯</button>
+                                        </div>                                       
                                     </div>
                                 </div>
                                 <div class="col-xl-6 col-lg-12 col-md-12 product_detail_side detail_style1">
                                     <div class="product-heading">
-                                        <h2>Cubierta de cama</h2>
+                                        <h2>Trajes de Polipropileno</h2>
                                     </div>
                                     <div class="product-detail-side"> <span><del>$25.00</del></span><span class="new-price">$20.00</span> <span class="rating"> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star" aria-hidden="true"></i> <i class="fa fa-star-o" aria-hidden="true"></i> </span> </div>
                                     <div class="detail-contant">
                                         <p>
-                                            Tamaño disponible: 40 x 90pulg (102 x 229cm)
+                                            Colores disponibles: Blanco / Azul
 
                                         </p>
 
@@ -104,16 +111,12 @@
                                                 <div id="descripcion" class="tab-pane active">
                                                     <div class="product_desc">
                                                         <p>
-                                                            <h1>Ventajas del producto</h1><br />
-                                                            -Cobertura completa de la cama<br />
+                                                            <h1>
 
-                                                            -Material altamente absorbente<br />
-
-                                                            -Impermeable<br />
-
-                                                            -Disminuye el riesgo de contaminación<br />
-
-                                                            -Precio competitivo
+                                                                Descripción del producto
+                                                            </h1>
+                                                            <br />
+                                                            Ayuda a proporcionar una barrera de protección contra salpicaduras de líquidos, polvos tóxicos y ciertos contaminantes biológicos.
                                                         </p>
                                                     </div>
                                                 </div>
@@ -158,7 +161,7 @@
                     <i class="fa fa-envelope"></i> <a href="mailto:ventas@suromedical.com" title="Ventas">ventas@suromedical.com</a><br>
                     <i class="fa fa-map-marker"></i> Calle Central no. 28, Sector Alfimar, Distrito Nacional
                     <br />
-                    <a href="https://instagram.com/suromedicalgroup?igshid=1tk5gllbc1dlg" title="Facebook">
+                    <a href="fbook" title="Facebook">
                         <i class="fa fa-facebook" aria-hidden="true"></i> |
 
                     </a>
@@ -193,7 +196,7 @@
 
     <!-- Template Main Javascript File -->
     <script src="~/Scripts/main1.js"></script>
-    
+
     <script src="~/Scripts/hizoom.js"></script>
     <script>
         $('.hi1').hiZoom({
@@ -210,6 +213,33 @@
             e.preventDefault()
             $(this).tab('show')
         })
+
+        var slideIndex = 1;
+        showDivs(slideIndex);
+
+        function plusDivs(n) {
+            showDivs(slideIndex += n);
+        }
+
+        function currentDiv(n) {
+            showDivs(slideIndex = n);
+        }
+
+        function showDivs(n) {
+            var i;
+            var x = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("demo");
+            if (n > x.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = x.length }
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" w3-red", "");
+            }
+            x[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " w3-red";
+        }
         
     </script>
 

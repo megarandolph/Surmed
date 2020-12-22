@@ -28,6 +28,62 @@ namespace Suromedica.Controllers
         {
             return View();
         }
-
+        public ActionResult DetalleA2()
+        {
+            return View();
+        }
+        public ActionResult DetalleA3()
+        {
+            return View();
+        }
+        public ActionResult DetalleA4()
+        {
+            return View();
+        }
+        public ActionResult DetalleA5()
+        {
+            return View();
+        }
+        public ActionResult DetalleA6()
+        {
+            return View();
+        }
+        public ActionResult DetalleB1()
+        {
+            return View();
+        }
+        public ActionResult DetalleB2()
+        {
+            return View();
+        }
+        public ActionResult DetalleB3()
+        {
+            return View();
+        }
+        public ActionResult DetalleC1()
+        {
+            return View();
+        }
+        public ActionResult DetalleC2()
+        {
+            return View();
+        }
+        public ActionResult DetalleC3()
+        {
+            return View();
+        }
+        public ActionResult DetalleC4()
+        {
+            return View();
+        }
+        public ActionResult DetalleC5()
+        {
+            return View();
+        }
+        public ActionResult DetalleC6()
+        {
+            return View();
+        }
+        
     }
 }

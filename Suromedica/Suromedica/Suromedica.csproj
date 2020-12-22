@@ -143,7 +143,24 @@
     <Content Include="img\logo1.png" />
     <Content Include="img\logosurmed.jpg" />
     <Content Include="img\otros.jpg" />
-    <Content Include="img\products\1.jpg" />
+    <Content Include="img\products\bajantes.jpg" />
+    <Content Include="img\products\batas.png" />
+    <Content Include="img\products\CAMA CUBIERTA.JPG" />
+    <Content Include="img\products\camadescubierta.png" />
+    <Content Include="img\products\COVERALL.jpg" />
+    <Content Include="img\products\CUBIERTA DE ALMOHADA.jpg" />
+    <Content Include="img\products\CUBIERTA DE BRAZOS.jpeg" />
+    <Content Include="img\products\CUBIERTA DE CAMA.jpg" />
+    <Content Include="img\products\guantesdelatex.jpg" />
+    <Content Include="img\products\headcap.jpg" />
+    <Content Include="img\products\mascarillaq.jpg" />
+    <Content Include="img\products\SABANA DE MOVILIZACION.jpg" />
+    <Content Include="img\products\shoescover.jpg" />
+    <Content Include="img\products\thumbnail_image_6487327 %281%29.jpg" />
+    <Content Include="img\products\thumbnail_image_6487327.jpg" />
+    <Content Include="img\products\thumbnail_IMG_6407.jpg" />
+    <Content Include="img\products\thumbnail_IMG_6408.jpg" />
+    <Content Include="img\products\traje azules.png" />
     <Content Include="img\SURO.jpg" />
     <Content Include="img\trajes.jpg" />
     <Content Include="lib\animate\animate.css" />
@@ -202,6 +219,8 @@
     <Content Include="Views\Home\Home.cshtml" />
     <Content Include="Views\Home\productosA.cshtml" />
     <Content Include="Views\Home\DetalleA1.cshtml" />
+    <Content Include="Views\Home\productosB.cshtml" />
+    <Content Include="Views\Home\productosC.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

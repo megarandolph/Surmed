@@ -16,6 +16,14 @@ namespace Suromedica.Controllers
         {
             return View();
         }
+        public ActionResult productosB()
+        {
+            return View();
+        }
+        public ActionResult productosC()
+        {
+            return View();
+        }
         public ActionResult DetalleA1()
         {
             return View();

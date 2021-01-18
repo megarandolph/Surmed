@@ -119,6 +119,7 @@
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\HomeEController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -235,6 +236,25 @@
     <Content Include="Views\Home\DetalleC4.cshtml" />
     <Content Include="Views\Home\DetalleC5.cshtml" />
     <Content Include="Views\Home\DetalleC6.cshtml" />
+    <Content Include="Views\HomeE\DetalleA1.cshtml" />
+    <Content Include="Views\HomeE\DetalleA2.cshtml" />
+    <Content Include="Views\HomeE\DetalleA3.cshtml" />
+    <Content Include="Views\HomeE\DetalleA4.cshtml" />
+    <Content Include="Views\HomeE\DetalleA5.cshtml" />
+    <Content Include="Views\HomeE\DetalleA6.cshtml" />
+    <Content Include="Views\HomeE\DetalleB1.cshtml" />
+    <Content Include="Views\HomeE\DetalleB2.cshtml" />
+    <Content Include="Views\HomeE\DetalleB3.cshtml" />
+    <Content Include="Views\HomeE\DetalleC1.cshtml" />
+    <Content Include="Views\HomeE\DetalleC2.cshtml" />
+    <Content Include="Views\HomeE\DetalleC3.cshtml" />
+    <Content Include="Views\HomeE\DetalleC4.cshtml" />
+    <Content Include="Views\HomeE\DetalleC5.cshtml" />
+    <Content Include="Views\HomeE\DetalleC6.cshtml" />
+    <Content Include="Views\HomeE\Home.cshtml" />
+    <Content Include="Views\HomeE\productosA.cshtml" />
+    <Content Include="Views\HomeE\productosB.cshtml" />
+    <Content Include="Views\HomeE\productosC.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

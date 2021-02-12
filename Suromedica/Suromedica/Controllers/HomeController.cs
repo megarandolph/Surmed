@@ -5,7 +5,9 @@ using System.Net;
 using System.Net.Mail;
 using System.Web;
 using System.Web.Mvc;
-
+using SendGrid;
+using SendGrid.Helpers.Mail;
+using System.Threading.Tasks;
 
 namespace Suromedica.Controllers
 {
@@ -22,48 +24,7 @@ namespace Suromedica.Controllers
 
             return View();
         }
-        [HttpPost]
-        public JsonResult correo(string email, string subject, string message) {
-
-            try
-            {
-                // Credentials
-                var credentials = new NetworkCredential("randolphmarte@hotmail.com", "Dokirayo@");
-                // Mail message
-                var mail = new MailMessage()
-                {
-                    From = new MailAddress(email, "Prueba"),
-                    Subject = subject,
-                    Body = message,
-                    IsBodyHtml = true
-                };
-
-                mail.To.Add(new MailAddress("randolphmarte@hotmail.com"));
-
-                // Smtp client
-                var client = new SmtpClient()
-                {
-                    Port = 25,
-                    DeliveryMethod = SmtpDeliveryMethod.Network,
-                    UseDefaultCredentials = false,
-                    Host = "smtp.live.com",
-                    EnableSsl = false,
-                    Credentials = credentials
-                };
-
-                // Send it...         
-                client.Send(mail);
-            }
-            catch (Exception ex)
-            {
-                // TODO: handle exception
-                throw new InvalidOperationException(ex.Message);
-            }
-            
-            var data = "Correo enviado";
-
-            return Json(data,JsonRequestBehavior.AllowGet);
-        }
+        
         public ActionResult productosA()
         {
             Session["productos"] = true;

@@ -156,7 +156,7 @@
                                                 <input type="email" id="email" class="form-control" placeholder="correo" name="email" required>
                                             </td>
                                             <td>
-                                                <input type="button" id="enviar"  class="form-control" name="Send message" value="Enviar Mensaje">
+                                                <input type="submit" id="enviar" class="form-control btn-enviar" name="Send message" value="Enviar Mensaje"/>
                                             </td>
                                         </tr>
                                     </tbody>
@@ -176,7 +176,7 @@
 
 @section PageScript{
     <script>
-
+        $("input[type='submit']").click(function () { return false; });
         (function () {
             emailjs.init("user_UfQXm3twUjQ31QdPwz7n1");
         })();

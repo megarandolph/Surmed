@@ -1215,14 +1215,14 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 
-    #contact .form input[type="submit"] {
+    #contact .form input[type="button"] {
         background: #202020;
         border-radius: 50px;
         border: 0;
         color: #ffffff;
     }
 
- #contact .form input[type="submit"]:hover {
+        #contact .form input[type="button"]:hover {
             background: #29ca8e;
             color: #ffffff;
         }

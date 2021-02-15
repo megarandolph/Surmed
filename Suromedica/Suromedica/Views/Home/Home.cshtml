@@ -156,7 +156,7 @@
                                                 <input type="email" id="email" class="form-control" placeholder="correo" name="email" required>
                                             </td>
                                             <td>
-                                                <input type="submit" id="enviar"  class="form-control" name="Send message" value="Enviar Mensaje">
+                                                <input type="button" id="enviar"  class="form-control" name="Send message" value="Enviar Mensaje">
                                             </td>
                                         </tr>
                                     </tbody>
@@ -176,8 +176,6 @@
 
 @section PageScript{
     <script>
-        
-
 
         (function () {
             emailjs.init("user_UfQXm3twUjQ31QdPwz7n1");
@@ -198,17 +196,19 @@
                         subject: "Nuevo mensaje",
                     };
                     console.log(data);
-                emailjs.send("service_9hwrwnk", "template_w6yhgh8", data)
-                    .then(function (response) {
+                    emailjs.send("service_0gnuaub", "template_w6yhgh8", data).then(function (response) {
                         if (response.text === 'OK') {
                             alert('El correo se ha enviado de forma exitosa');
                         }
                         console.log("SUCCESS. status=%d, text=%s", response.status, response.text);
+                        $("#nombres").val("");
+                        $("#mensaje").val("");
+                        $("#email").val("");
                     }, function (err) {
                         alert('Ocurrió un problema al enviar el correo');
                         console.log("FAILED. error=", err);
                     });
-                })        
+                })
         });
     </script>
 }
